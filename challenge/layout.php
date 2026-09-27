@@ -51,14 +51,14 @@ set_error_handler(function ($e_code, $text, $file, $line) use ($player, $game) {
     <meta property="og:title" content="BOS la NOG <?= date('Y') ?>">
     <meta property="og:description"
         content="BOS la Noaptea ONG-urilor <?= date('Y') ?>. Participă la coding-ul echipei Web.">
-    <meta property="og:image" itemprop="image" content="/NOG/assets/SEO-SM-image.jpg">
+    <meta property="og:image" itemprop="image" content="/assets/SEO-SM-image.jpg">
     <meta property="og:image:alt" content="BOS la NOG <?= date('Y') ?>">
 
     <meta name="twitter:url" content="https://nog.bosromania.ro" />
     <meta property="twitter:title" content="BOS la NOG <?= date('Y') ?>">
     <meta property="twitter:description"
         content="BOS la Noaptea ONG-urilor <?= date('Y') ?>. Participă la coding-ul echipei Web.">
-    <meta name="twitter:image" content="/NOG/assets/SEO-SM-image.jpg" />
+    <meta name="twitter:image" content="/assets/SEO-SM-image.jpg" />
     <meta property="twitter:image:alt" content="BOS la NOG <?= date('Y') ?>">
     <meta name="twitter:card" content="summary_large_image">
 
@@ -114,23 +114,23 @@ set_error_handler(function ($e_code, $text, $file, $line) use ($player, $game) {
     }
     </style>
 
-    <link href="/NOG/assets/favicon-bos.png" rel="shortcut icon" type="image/png" />
+    <link href="/assets/favicon-bos.png" rel="shortcut icon" type="image/png" />
 </head>
 
 <body player="<?= $player ?>" game="<?= $game ?>">
     <div class="container py-2">
         <div class="row align-items-center py-3 border-bottom">
             <div class="col-6 text-center">
-                <img id="hacker" class="w-50 py-3" src="/NOG/assets/WebDev-stereotype-hacker.png" />
+                <img id="hacker" class="w-50 py-3" src="/assets/WebDev-stereotype-hacker.png" />
                 <div>
                     <span class="text-<?= $player == 1 ? 'primary' : ($player == 2 ? 'success' : 'info') ?>">Player
                         <?= $player ?></span>
                 </div>
             </div>
             <div class="col-6 text-center pos-relative">
-                <img id="QR-code" class="w-50 py-3" src="/NOG/assets/QR-apply-to-BOS-2025.jpeg" />
+                <img id="QR-code" class="w-50 py-3" src="/assets/QR-apply-to-BOS-2025.jpeg" />
 
-                <img class="w-50 logo-taiat" src="/NOG/assets/for-c-and-e/logo-BOS-taiat.jpg" />
+                <img class="w-50 logo-taiat" src="/assets/for-c-and-e/logo-BOS-taiat.jpg" />
             </div>
         </div>
 
@@ -158,12 +158,12 @@ set_error_handler(function ($e_code, $text, $file, $line) use ($player, $game) {
                 <?php
                         foreach ($ingredients as $ingredient) { ?>
                 <div style="text-align: center; margin: 10px;">
-                    <img src="/NOG/assets/for-f/<?= $ingredient ?>.jpeg" class="w-50" />
+                    <img src="/assets/for-f/<?= $ingredient ?>.jpeg" class="w-50" />
                 </div>
                 <?php } ?>
             </div>
             <div class="col text-right">
-                <img src="/NOG/assets/for-f/correct-recipe.jpeg" class="w-50" />
+                <img src="/assets/for-f/correct-recipe.jpeg" class="w-50" />
             </div>
         </div>
 
@@ -283,14 +283,14 @@ set_error_handler(function ($e_code, $text, $file, $line) use ($player, $game) {
             }
         }
         if (game == 'i') {
-            if (x == "2025" || reclama != null) {
+            if (x == "2026") {
                 $("img.logo-taiat").css('display', 'none');
                 showQR();
             }
         }
-        document.querySelector(".vodca img").src = "/NOG/assets/for-j/vodca.jpg"
-        document.querySelector(".bere:last-child img").src = "/NOG/assets/for-j/bere.jpg"
-        document.querySelector(".vin img").src = "/NOG/assets/for-j/vin.jpg"
+        document.querySelector(".vodca img").src = "/assets/for-j/vodca.jpg"
+        document.querySelector(".bere:last-child img").src = "/assets/for-j/bere.jpg"
+        document.querySelector(".vin img").src = "/assets/for-j/vin.jpg"
         if (game == 'j') {
 
             if (document.querySelector(".vin img") != null) {

@@ -50,7 +50,7 @@
     <div class="container py-2">
         <div class="row align-items-center justify-content-center py-3 border-bottom">
             <div class="col-6 text-center">
-                <img id="hacker" class="w-50 py-3" src="/NOG/assets/WebDev-stereotype-hacker.png" />
+                <img id="hacker" class="w-50 py-3" src="/assets/WebDev-stereotype-hacker.png" />
             </div>
         </div>
 
@@ -61,17 +61,17 @@
             <div class="row py-3">
                 <div class="col-4">
                     <div class="py-3">
-                        <a href="/NOG/challenge/1" class="btn btn-sm btn-primary">Player 1</a>
+                        <a href="/challenge/1" class="btn btn-sm btn-primary">Player 1</a>
                     </div>
                 </div>
                 <div class="col-4">
                     <div class="py-3">
-                        <a href="/NOG/challenge/2" class="btn btn-sm btn-success">Player 2</a>
+                        <a href="/challenge/2" class="btn btn-sm btn-success">Player 2</a>
                     </div>
                 </div>
                 <div class="col-4">
                     <div class="py-3">
-                        <a href="/NOG/challenge/3" class="btn btn-sm btn-info">Player 3</a>
+                        <a href="/challenge/3" class="btn btn-sm btn-info">Player 3</a>
                     </div>
                 </div>
             </div>
